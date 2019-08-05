@@ -1,0 +1,42 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">PADC_9_HelloAndroid</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="lbl_activity_test_toolbar_title" translatable="false">Hi Testing</string>
+    <string name="lbl_tv_greeting_content" translatable="false">Hello Test Activity</string>
+    <string name="btn_lbl_chinese_greeting" translatable="false">Chinese Greeting</string>
+    <string name="fruit_banana">Banana</string>
+    <string name="fruit_orange">Orange</string>
+    <string name="fruit_apple">Apple</string>
+    <string name="format_msg_picked_fruits" translatable="false">Fruits you picked : <b><xliff:g id="picked_fruits">%1$s</xliff:g></b></string>
+    <string name="lbl_tv_name">Name</string>
+    <string name="lbl_tv_email">Email</string>
+    <string name="lbl_tv_phone_number">Phone Number</string>
+    <string name="lbl_tv_address">Address</string>
+    <string name="lbl_rg_name">Gender</string>
+    <string name="lbl_rb_male">Male</string>
+    <string name="lbl_rb_female">Female</string>
+    <string name="lbl_cb_name">Interest Category</string>
+    <string name="lbl_cb_reading">Reading</string>
+    <string name="lbl_cb_swimming">Swimming</string>
+    <string name="lbl_cb_walking">Walking</string>
+    <string name="lbl_cb_travelling">Travelling</string>
+    <string name="door_lock_open" translatable="false">Door_lock_Open</string>
+    <string name="lbl_door_lock" translatable="false">Door_lock</string>
+    <string name="door_lock_close" translatable="false">Door_Lock_Close</string>
+    <string name="lbl_brightness" translatable="false">Brightness</string>
+    <string name="lbl_how_much_you_love_the_room">Rating</string>
+    <string name="lbl_shower_loading">Progress</string>
+    <string name="lbl_lunch_selection">Spinner</string>
+    <string name="lbl_additional_drinks">AutoCompleteText</string>
+    <string name="lbl_off">Toogle</string>
+    <string name="lbl_on">Toogle On</string>
+    <string name="lbl_guest_room_light">Guest Room</string>
+    <string name="btn_select_date">Date</string>
+    <string name="format_selected_date">DatePicker</string>
+    <string name="btn_select_time">Selection_Button</string>
+    <string name="format_selected_time">SelectTimeText</string>
+    <string name="txtCredits">TextCredits</string>
+    <string name="lbl_tv_select_image">Select Image</string>
+    <string name="lbl_btn_select_UI_Component">Select UI Components 1</string>
+    <string name="lbl_tv_data_from_component">Text View</string>
+</resources>

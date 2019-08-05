@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fruit_banana">ငှက်ပျောသီ</string>
+    <string name="fruit_orange">လိမ္မော်သီ</string>
+    <string name="fruit_apple">ပန်းသီး</string>
+    <string name="lbl_tv_name">အမည်</string>
+    <string name="lbl_tv_email">အီးမေးလ်က</string>
+    <string name="lbl_tv_phone_number">ဖုန်းနံပါတ်</string>
+    <string name="lbl_tv_address">လိပ်စာ</string>
+    <string name="lbl_rg_name">ကျား, မ</string>
+    <string name="lbl_rb_male">ယောကျ်ားဖြစ်သေ</string>
+    <string name="lbl_rb_female">အမြိုးသမီ</string>
+    <string name="lbl_cb_name">အကျိုးစီးပွားအမျိုးအစား</string>
+    <string name="lbl_cb_reading">စာဖတ်ခြင်</string>
+    <string name="lbl_cb_swimming">ရေကူး</string>
+    <string name="lbl_cb_walking">လမ်းလျှောက်</string>
+    <string name="lbl_cb_travelling">ခရီးသွားလာ</string>
+</resources>

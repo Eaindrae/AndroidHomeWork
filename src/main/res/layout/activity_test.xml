@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_text_to_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/lbl_tv_data_from_component"
+        android:textColor="#ff0012"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        <!--android:layout_above="@+id/tv_gentleman"-->
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Return"
+        android:layout_below="@+id/imageView"
+        android:layout_alignRight="@+id/tv_greeting"
+        android:layout_marginRight="20dp"
+        android:text="chinese Greeting"
+        />
+
+    <TextView
+        android:id="@+id/tv_greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/lbl_tv_greeting_content"
+        android:textColor="#ff0012"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <!--testing comment -->
+    <ImageView
+        android:layout_below="@id/tv_greeting"
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/image"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_chinese_greeting"
+        android:layout_below="@+id/imageView"
+        android:layout_alignRight="@+id/tv_greeting"
+        android:layout_marginRight="20dp"
+        android:text="chinese Greeting"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_mytest"
+        android:layout_alignBottom="@+id/btn_chinese_greeting"
+        android:layout_toLeftOf="@+id/btn_chinese_greeting"
+        android:text="chinese Random"
+        android:padding="20dp"
+        />
+    <EditText
+        android:id="@+id/et_my_greetings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_greeting"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Say_Hi"
+        android:inputType="text"/>
+    <ImageButton
+        android:id="@+id/btn_say_hi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_android_back_24dp"
+        android:layout_toRightOf="@+id/et_my_greetings"
+        android:layout_alignBottom="@+id/et_my_greetings"
+        />
+    <CheckBox
+        android:id="@+id/cb_banana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_my_greetings"
+        android:checked="true"
+        android:text="Banana"/>
+    <CheckBox
+        android:id="@+id/cb_apple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_my_greetings"
+        android:layout_toEndOf="@+id/cb_banana"
+        android:text="Apple"/>
+    <CheckBox
+        android:id="@+id/cb_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_my_greetings"
+        android:layout_toEndOf="@+id/cb_apple"
+        android:text="Orange"/>
+    <TextView
+        android:id="@+id/btn_check_fruits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cb_orange"
+        android:text="Check Fruit"
+        android:textStyle="bold|italic"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        android:foreground="@drawable/bg_ripple_primary"
+        android:padding="@dimen/margin_card_medium"/>
+    <RadioGroup
+        android:id="@+id/rdGroup"
+        android:layout_above="@+id/btn_check_fruits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rdOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+        <RadioButton
+            android:id="@+id/rdTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"/>
+    </RadioGroup>
+
+</RelativeLayout>

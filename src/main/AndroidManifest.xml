@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.padcmyanmar.padc9.padc_9_helloandroid">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">//the whole app
+        <activity
+            android:name=".ActivityHomework"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">//only one part, no use default action bar
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="@string/lbl_activity_test_toolbar_title"/>
+        <activity android:name=".ActivityTest"
+            android:label="Hi Activity Test"/>
+        <activity android:name="com.padcmyanmar.padc9.padc_9_helloandroid.UIComponents2Activity"
+            android:label="Start UI Components 2"/>
+
+    </application>
+
+</manifest>
